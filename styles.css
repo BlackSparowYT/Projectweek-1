@@ -60,13 +60,13 @@ nav #navbar {
 #navbar a {
     display: block;
     height: 100%;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
     color: #FFF;
 }
 
 #navbar .navbar-items a:hover {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     color: #000;
 }
 
