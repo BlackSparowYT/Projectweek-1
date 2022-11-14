@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progammeertalen</title>
-  <link rel="stylesheet" href="../styles.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Progammeertalen</title>
+        <link rel="stylesheet" href="../styles.css">
 
 
 <style>
 
 /** Programmeertalen **/
 
-.programmeren {
-  margin-top: 100px;
-  height: 80vh;
-}
-
 .programmeren main {
-  height: 100%;
+    padding-top: 75px;
+    height: 100vh;
 }
 
-.programmeren .container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 40%;
-  margin: 50px 0;
+.programmeren .mod {
+    color: #FFF;
+    width: 44%;
+    height: 44%;
+    /*width: 29%;
+    height: 29%;*/
+    margin: 1%;
+    padding-left: 20px;
+    transition: 1s;
+    border-radius: 10px;
+    background-size: 200%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    transition: all 0.3s;
 }
 
-.programmeren .container .box-link {
-  width: 45%;
-  height: 100%;
+.programmeren .mod:hover {
+    width: 45%;
+    height: 45%;
+    /*width: 30%;
+    height: 30%;*/
+    margin: 0;
+    transition: all 0.3s;
 }
 
-.programmeren .box {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-} 
+.programmeren #bhtml {background-image: url(../images/html.jpg);}
+.programmeren #bjava {background-image: url(../images/java.jpg);}
+.programmeren #bphp {background-image: url(../images/php.jpg);}
+.programmeren #bjs {background-image: url(../images/javascript.jpg);}
+.programmeren #breact {background-image: url(../images/javascript.jpg);}
 
-.programmeren .box-a {background-image: url(../images/html.jpeg);}
-.programmeren .box-b {background-image: url(../images/java.jpg);}
-.programmeren .box-c {background-image: url(../images/php.png);}
-.programmeren .box-d {background-image: url(../images/javascript.jpg);}
 
-.box-a-title {
-  width: 100%;
-  padding-left: 5px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
+.programmeren .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+
+.programmeren .linkmod {
+    padding-left: 5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 95%;
 }
 
 
@@ -63,54 +78,40 @@
 </style>
 
 
-</head>
-<body class="programmeren">
+    </head>
+    <body class="programmeren">
+        <header>
+            <nav>
+                <div id="navbar">
+                      <div class="navbar-sitename">
+                            <a><h3>Projectweek 1</h3></a>
+                      </div>
+                      <div class="navbar-items">
+                            <a href="../index.html"><h3>Home</h3></a>
+                            <a href="../modules/index.html"><h3>Modules</h3></a>
+                            <a href="#"><h3>Programmeertalen</h3></a>
+                            <a href="../informatie/index.html"><h3>Informatie</h3></a>
+                      </div>
+                </div>
+            </nav>
+        </header>
 
-  <header>
-    <link rel="stylesheet" href="../style.css">
-    <nav>
-      <div id="navbar">
-          <div class="navbar-sitename">
-              <a><h3>Projectweek 1</h3></a>
-          </div>
-          <div class="navbar-items">
-              <a href="../index.html"><h3>Home</h3></a>
-              <a href="../modules/index.html"><h3>Modules</h3></a>
-              <a href="#"><h3>Programmeertalen</h3></a>
-              <a href="../informatie/index.html"><h3>Informatie</h3></a>
-          </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-
-    <div class="container">
-      <a href="#" class="box-link">
-        <div class="box box-a">
-          <h1 class="box-a-title red1">HTML/CSS</h1>
-        </div>
-      </a>
-      <a href="#" class="box-link">
-        <div class="box box-b">
-          <h1 class="box-a-title red1">JAVA</h1>
-        </div>
-      </a>
-    </div>
-    <div class="container">
-      <a href="#" class="box-link">
-        <div class="box box-c">
-          <h1 class="box-a-title red1">PHP</h1>
-        </div>
-      </a>
-      <a href="#" class="box-link">
-        <div class="box box-d">
-          <h1 class="box-a-title red1">Javascript</h1>
-        </div>
-      </a>
-    </div>
-
-  </main>
-  
-</body>
+        <main class="row">
+            <a href="" class="mod black" id="bhtml">
+                <h2 class="red1 linkmod">HTML/CSS</h2>
+            </a>
+            <a href="" class="mod black" id="bjava">
+                <h2 class="red1 linkmod">Java</h2>
+            </a>
+            <a href="" class="mod black" id="bphp">
+                <h2 class="red1 linkmod">PHP</h2>
+            </a>
+            <a href="" class="mod black" id="bjs">
+                <h2 class="red1 linkmod">Javascript</h2>
+            </a>
+            <!--<a href="" class="mod black" id="breact">
+                <h2 class="red1 linkmod">React</h2>
+            </a>-->
+        </main>
+    </body>
 </html>

@@ -1,4 +1,4 @@
-/* Nav */
+/* General CSS */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
     color: white;
@@ -18,30 +18,19 @@ body {
     
 
 
+/*** Colors ***/
 
-.black {
-    background-color: #141414;
-}
-
-.red1 {
-    background-color: #A21F16;
-}
-
-.red2 {
-    background-color: #FF3333;
-}
-
-.yellow {
-    background-color: #FCBA04;
-}
-
-.white {
-    background-color: #EBEBEB;
-}
+.black  {background-color: #141414;}
+.red1   {background-color: #A21F16;}
+.red2   {background-color: #FF3333;}
+.yellow {background-color: #FCBA04;}
+.white  {background-color: #EBEBEB;}
 
 
 
 
+
+/*** Navbar ***/
 
 nav #navbar {
     height: 75px;
