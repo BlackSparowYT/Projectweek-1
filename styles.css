@@ -160,3 +160,73 @@ a {
 
 
 
+
+
+
+
+
+
+/** Informatie **/
+
+/** Informatie | Hero **/
+.home .hero {
+    background-image: url(./images/technovium-nijmegen.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home .hero h1, .home .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.home #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.custom-shape-divider-bottom-1662291872 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.custom-shape-divider-bottom-1662291872 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1662291872 .shape-fill {
+    fill: #FF3333;
+}
+
+.home .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.home .summary h2, .home .summary p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
