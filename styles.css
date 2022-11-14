@@ -11,7 +11,7 @@ p {
 
 
 .black {
-    background-color: #2A353C;
+    background-color: #20272b;
 }
 
 .red1 {
@@ -36,7 +36,7 @@ p {
 
 nav #navbar {
     height: 75px;
-    background-color: #2A353C;
+    background-color: #20272b;
     position: fixed;
     top: 0;
     width: 100%;
