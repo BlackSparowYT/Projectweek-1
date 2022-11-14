@@ -14,7 +14,7 @@
                 padding-top: 75px;
             }
 
-            .mod {
+            .modules .mod {
                 color: #FFF;
                 width: 400px;
                 height: 400px;
@@ -22,11 +22,7 @@
                 padding-left: 20px;
                 transition: 1s;
                 border-radius: 10px;
-
                 background-size: 200%;
-
-                
-
 	            display: flex;
 	            flex-direction: column;
 	            flex-wrap: wrap;
@@ -35,50 +31,19 @@
 	            align-content: stretch;
             }
 
-            .mod:hover {
-                background-size: 250%;
-                }
-
-            body {
-                background-color: #2f2f2f;
-            }
-
-            #bwebsite {
-                background-image: url(images/website.jpg);
-            }
-
-            #bprogrammeren {
-                background-image: url(images/programmeren.jpg);
-            }
-
-            #bict {
-                background-image: url(images/ict.jpg);
-            }
+            .modules .mod:hover {background-size: 250%;}
+            .modules body {background-color: #2f2f2f;}
+            .modules #bwebsite {background-image: url(images/website.jpg);}
+            .modules #bprogrammeren {background-image: url(images/programmeren.jpg);}
+            .modules #bict {background-image: url(images/ict.jpg);}
+            .modules #btools {background-image: url(images/tools.jpg);}
+            .modules #bnederlands {background-image: url(images/nederlands.jpg);}
+            .modules #bengels {background-image: url(images/engels.jpg);}
+            .modules #bburgerschap {background-image: url(images/burgerschap.jpg);}
+            .modules #brekenen {background-image: url(images/rekenen.png);}
+            .modules #bslb {background-image: url(images/slb.jpg);}
             
-            #btools {
-                background-image: url(images/tools.jpg);
-            }
-
-            #bnederlands {
-                background-image: url(images/nederlands.jpg);
-            }
-
-            #bengels {
-                background-image: url(images/engels.jpg);
-            }
-
-            #bburgerschap {
-                background-image: url(images/burgerschap.jpg);
-            }
-
-            #brekenen {
-                background-image: url(images/rekenen.png);
-            }
-
-            #bslb {
-                background-image: url(images/slb.jpg);
-            }
-            .row {
+            .modules .row {
                 display: flex;
 	            flex-direction: row;
 	            flex-wrap: wrap;
@@ -87,7 +52,7 @@
 	            align-content: space-around;
             }
 
-            .linkmod {
+            .modules .linkmod {
                 padding-left: 5%;
                 border-top-left-radius: 10px;
                 border-bottom-left-radius: 10px;
@@ -97,7 +62,7 @@
 
         </style>
     </head>
-    <body>
+    <body class="modules">
         <header>
             <link rel="stylesheet" href="style.css">
             <nav>
@@ -106,15 +71,15 @@
                         <a><h3>Projectweek 1</h3></a>
                     </div>
                     <div class="navbar-items">
-                        <a href="./index.html"><h3>Home</h3></a>
-                        <a href="./modules.html"><h3>Modules</h3></a>
-                        <a href="./programmeertalen.html"><h3>Programmeertalen</h3></a>
-                        <a href="./informatie.html"><h3>Informatie</h3></a>
+                        <a href="../index.html"><h3>Home</h3></a>
+                        <a href="#"><h3>Modules</h3></a>
+                        <a href="../programmeertalen/index.html"><h3>Programmeertalen</h3></a>
+                        <a href="../informatie/index.html"><h3>Informatie</h3></a>
                     </div>
                 </div>
             </nav>
         </header>
-        <main class="modules row">
+        <main class="row">
             <a href="" class="mod black" id="bwebsite">
                 <h2 class="red1 linkmod">Website</h2>
             </a>
