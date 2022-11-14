@@ -5,33 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Progammeertalen</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
+  <link rel="stylesheet" href="../styles.css">
+
+
+<style>
 
 /** Programmeertalen **/
 
 .programmeren {
-  height: 110vh;
+  margin-top: 100px;
+  height: 80vh;
+}
+
+.programmeren main {
+  height: 100%;
 }
 
 .programmeren .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40%;
+  margin: 50px 0;
 }
 
 .programmeren .container .box-link {
   width: 45%;
+  height: 100%;
 }
 
 .programmeren .box {
-  min-width: 300px;
-  height: 300px;
-  margin-left: 25px;
-  margin-right: 25px;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -39,13 +44,12 @@
   background-position: center;
   display: flex;
   align-items: flex-end;
-  padding-left: 30px;
 } 
 
-.programmeren .box-a {background-image: url(./images/html.jpeg);}
-.programmeren .box-b {background-image: url(./images/java.jpg);}
-.programmeren .box-c {background-image: url(./images/php.png);}
-.programmeren .box-d {background-image: url(./images/javascript.jpg);}
+.programmeren .box-a {background-image: url(../images/html.jpeg);}
+.programmeren .box-b {background-image: url(../images/java.jpg);}
+.programmeren .box-c {background-image: url(../images/php.png);}
+.programmeren .box-d {background-image: url(../images/javascript.jpg);}
 
 .box-a-title {
   width: 100%;
@@ -56,30 +60,30 @@
 
 
 
-  </style>
+</style>
+
+
 </head>
-<body>
+<body class="programmeren">
 
-  <div class="header-dummy" style="height: 75px;">
-    <header>
-        <link rel="stylesheet" href="style.css">
-        <nav>
-          <div id="navbar">
-              <div class="navbar-sitename">
-                  <a><h3>Projectweek 1</h3></a>
-              </div>
-              <div class="navbar-items">
-                  <a href="../index.html"><h3>Home</h3></a>
-                  <a href="../modules/index.html"><h3>Modules</h3></a>
-                  <a href="#"><h3>Programmeertalen</h3></a>
-                  <a href="../informatie/index.html"><h3>Informatie</h3></a>
-              </div>
+  <header>
+    <link rel="stylesheet" href="../style.css">
+    <nav>
+      <div id="navbar">
+          <div class="navbar-sitename">
+              <a><h3>Projectweek 1</h3></a>
           </div>
-      </nav>
-    </header>
-  </div>
+          <div class="navbar-items">
+              <a href="../index.html"><h3>Home</h3></a>
+              <a href="../modules/index.html"><h3>Modules</h3></a>
+              <a href="#"><h3>Programmeertalen</h3></a>
+              <a href="../informatie/index.html"><h3>Informatie</h3></a>
+          </div>
+      </div>
+    </nav>
+  </header>
 
-  <main class="programmeren">
+  <main>
 
     <div class="container">
       <a href="#" class="box-link">
