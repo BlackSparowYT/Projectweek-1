@@ -1,0 +1,970 @@
+/* Nav */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+              
+p {
+    font-family: "Arial", "Arial", Gadget, sans-serif;
+}
+              
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+              
+nav li {
+    float: right;
+}
+              
+nav li a {
+    padding: 0px;
+}
+              
+nav li a, nav li h1 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 27px 16px;
+    text-decoration: none;
+    transition: all .2s ease-in;
+    background-color: #000;
+}
+              
+nav li h1:hover {
+    background-color: #000;
+    animation: navcolor 8s;
+}
+              
+nav li a:hover {
+    background-color: #000;
+    color: #000;
+    animation: navcolor 4s;
+}
+              
+@keyframes navcolor {
+    50% {background-color: #F9E400;}
+}
+              
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 1000;
+}
+              
+nav #last {
+    margin-right: 0px;
+}
+              
+nav #first {
+    border-bottom-left-radius: 10px;
+}
+              
+nav #sitename h1 {
+    padding: 23.4px;
+    margin: 0px;
+    background-color: #F9E400;
+    border-bottom-right-radius: 10px;
+    color: #000;
+}
+
+nav #sitename h1:hover {
+    color: #FFF;
+    animation: navnamecolor 4s;
+}
+              
+@keyframes navnamecolor {
+    50% {background-color: #000;}
+}
+
+
+
+
+
+
+/** Home **/
+
+/* Body */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/** Home | Hero **/
+.home .hero {
+    background-image: url(https://cdn.blacksparow.gq/site/images/PS_Messages_20200927_133547.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home .hero h1, .home .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.custom-shape-divider-bottom-1662291872 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.custom-shape-divider-bottom-1662291872 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1662291872 .shape-fill {
+    fill: #F9E400;
+}
+
+.home .block1 {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .block1 div {
+    width: 33%;
+    height: 500px;
+}
+
+.home .block1 #d1 {
+    background-color: #000;
+}
+.home .block1 #d2 {
+    background-color: #F9E400;
+}
+.home .block1 #d3 {
+    background-color: #000;
+    width: 34%;
+}
+
+.home .block2 {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .block2 div {
+    width: 25%;
+    height: 500px;
+}
+
+.home .block2 #d4 {
+    background-color: #000;
+}
+.home .block2 #d5 {
+    background-color: #F9E400;
+}
+.home .block2 #d6 {
+    background-color: #000;
+}
+.home .block2 #d7 {
+    background-color: #F9E400;
+}
+
+
+
+/* Grid 1 */
+.grids, body {
+    background-color: #2A2F44;
+}
+.grids .block1 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grids .block1 div, .grids .block1 a {
+    width: 280px;
+    height: 143px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+}
+.grids .block1 div:hover, .grids .block1 a:hover {
+    width: calc(280px * 1.1);
+    height: calc(143px * 1.1);
+    transition: all .5s ease-in-out;
+}
+
+.grids .block1 #d1 {
+    background-image: url(images/grid1.png);
+}
+.grids .block1 #d2 {
+    background-image: url(images/grid2.png);
+}
+.grids .block1 #d3 {
+    background-image: url(images/grid3.png);
+}
+
+.grids .block2 {
+    padding-top: 50px;
+    background-color: #2A2F44;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grids .block2 div, .grids .block2 a {
+    width: 280px;
+    height: 143px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+}
+.grids .block2 div:hover, .grids .block2 a:hover {
+    width: calc(280px * 1.1);
+    height: calc(143px * 1.1);
+    transition: all .5s ease-in-out;
+}
+
+
+.grids .block2 #d4 {
+    background-image: url(images/grid4.png);
+}
+.grids .block2 #d5 {
+    background-image: url(images/grid5.png);
+}
+.grids .block2 #d6 {
+    background-image: url(images/grid6.png);
+}
+
+.grids .block3 {
+    padding-top: 50px;
+    background-color: #2A2F44;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.grids .block3 div, .grids .block3 a {
+    width: 280px;
+    height: 143px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+}
+.grids .block3 div:hover, .grids .block3 a:hover {
+    width: calc(280px * 1.1);
+    height: calc(143px * 1.1);
+    transition: all .5s ease-in-out;
+}
+
+.grids .block3 #d7 {
+    background-image: url(images/grid7.png);
+}
+.grids .block3 #d8 {
+    background-image: url(images/grid8.png);
+}
+.grids .block3 #d9 {
+    background-image: url(images/grid9.png);
+}
+
+.grids div {
+    border: solid #000 3px;
+}
+
+
+
+
+/* Grid 1 */
+.grid1, #grid1 {
+    background-color: #2A2F44;
+    height: 80vh;
+}
+.grid1 .block1 {
+    background-color: #2A2F44;
+    padding-top: 90px;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid1 .block1 div {
+    width: calc(100% / 3);
+}
+
+.grid1 .block1 #d1 {
+    background-color: #FD5F57;
+}
+.grid1 .block1 #d2 {
+    background-color: #FD825A;
+}
+.grid1 .block1 #d3 {
+    background-color: #FCA05F;
+}
+
+.grid1 .block2 {
+    background-color: #2A2F44;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid1 .block2 div {
+    width: calc(100% / 3);
+}
+
+.grid1 .block2 #d4 {
+    background-color: #0CA786;
+}
+.grid1 .block2 #d5 {
+    background-color: #19C1A1;
+}
+.grid1 .block2 #d6 {
+    background-color: #32DBB9;
+}
+
+
+
+
+
+/* Grid 2 */
+.grid2, #grid2 {
+    background-color: #2A2F44;
+    height: 80vh;
+}
+.grid2 .block1 {
+    background-color: #2A2F44;
+    padding-top: 90px;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid2 .block1 #d1 {
+    background-color: #000;
+    width: calc(100% / 3 * 2);
+}
+.grid2 .block1 #d2 {
+    background-color: #F9E400;
+    width: calc(100% / 3);
+    height: 200%;
+}
+
+.grid2 .block2 {
+    width: calc(100% / 3 * 2);
+    background-color: #2A2F44;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid2 .block2 #d3 {
+    background-color: #F9E400;
+    width: 50%;
+}
+.grid2 .block2 #d4 {
+    background-color: #141414;
+    width: 50%;
+}
+
+
+
+/* Grid 3 */
+.grid3, #grid3 {
+    background-color: #2A2F44;
+    height: 80vh;
+}
+
+.grid3 .block1 {
+    background-color: #2A2F44;
+    padding-top: 90px;
+    height: calc(100% / 3);
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid3 .block1 div {
+    width: 100%;
+}
+
+.grid3 .block1 #d1 {
+    background-color: #000;
+}
+
+
+.grid3 .block2 {
+    background-color: #2A2F44;
+    height: calc(100% / 3);
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid3 .block2 #d2 {
+    width: calc(100% / 3);
+    background-color: #F9E400;
+}
+
+.grid3 .block2 #d3 {
+    width: calc(100% / 3 * 2);
+    background-color: #141414;
+}
+
+
+.grid3 .block3 {
+    background-color: #2A2F44;
+    height: calc(100% / 3);
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid3 .block3 div {
+    width: 100%;
+}
+
+.grid3 .block3 #d4 {
+    background-color: #bdad01;
+}
+
+
+
+/* Grid 4 */
+.grid4, #grid4 {
+    background-color: #2A2F44;
+    height: 80vh;
+}
+
+.grid4 .block1 {
+    background-color: #2A2F44;
+    padding-top: 90px;
+    height: calc(100% / 3);
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid4 .block1 div {
+    width: 50%;
+}
+
+.grid4 .block1 #d1 {
+    background-color: #000;
+}
+.grid4 .block1 #d2 {
+    background-color: #F9E400;
+}
+
+
+.grid4 .block2 {
+    background-color: #2A2F44;
+    height: calc(100% / 3);
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid4 .block2 #d3 {
+    background-color: #F9E400;
+    width: calc(100% / 3);
+}
+
+.grid4 .block2 #d4 {
+    background-color: rgb(18, 18, 18);
+    width: calc(100% / 3 * 2);
+}
+
+
+.grid4 .block3 {
+    background-color: #2A2F44;
+    height: calc(100% / 3);
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid4 .block3 div {
+    width: 100%;
+}
+
+.grid4 .block3 #d5 {
+    background-color: #b6a600;
+}
+
+
+
+
+
+/* Grid 5 */
+.grid5, body {
+    background-color: #2A2F44;
+}
+
+.grid5 .block1 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid5 .block1 div {
+    width: 16%;
+    height: 250px;
+}
+
+.grid5 .block1 #d1 {
+    background-color: #000;
+}
+.grid5 .block1 #d2 {
+    background-color: #F9E400;
+}
+.grid5 .block1 #d3 {
+    background-color: #000;
+}
+.grid5 .block1 #d4 {
+    background-color: #F9E400;
+}
+.grid5 .block1 #d5 {
+    background-color: #000;
+}
+.grid5 .block1 #d6 {
+    background-color: #F9E400;
+}
+
+.grid5 .block2 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid5 .block2 div {
+    width: 16%;
+    height: 250px;
+}
+
+.grid5 .block2 #d7 {
+    background-color: #000;
+}
+.grid5 .block2 #d8 {
+    background-color: #F9E400;
+}
+.grid5 .block2 #d9 {
+    background-color: #000;
+}
+.grid5 .block2 #d10 {
+    background-color: #F9E400;
+}
+.grid5 .block2 #d11 {
+    background-color: #000;
+}
+.grid5 .block2 #d12 {
+    background-color: #F9E400;
+}
+
+.grid5 .block3 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid5 .block3 div {
+    width: 16%;
+    height: 250px;
+}
+
+.grid5 .block3 #d13 {
+    background-color: #000;
+}
+.grid5 .block3 #d14 {
+    background-color: #F9E400;
+}
+.grid5 .block3 #d15 {
+    background-color: #000;
+}
+.grid5 .block3 #d16 {
+    background-color: #F9E400;
+}
+.grid5 .block3 #d17 {
+    background-color: #000;
+}
+.grid5 .block3 #d18 {
+    background-color: #F9E400;
+}
+
+
+
+
+
+
+
+
+/* Grid 6 */
+.grid6, body {
+    background-color: #2A2F44;
+}
+.grid6 .block1 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid6 .block1 div {
+    height: 250px;
+}
+
+.grid6 .block1 #d1 {
+    background-color: #000;
+    width: 50%;
+}
+.grid6 .block1 #d2 {
+    background-color: #F9E400;
+    width: 25%;
+}
+.grid6 .block1 #d3 {
+    background-color: #000;
+    width: 25%; 
+}
+
+
+.grid6 .block2 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.grid6 .block2 div {
+    height: 250px;
+    width: 30%;
+}
+
+.grid6 .block2 #d4 {
+    background-color: #000;
+}
+.grid6 .block2 #d5 {
+    background-color: #F9E400;
+}
+.grid6 .block2 #d6 {
+    background-color: #000;
+}
+
+
+
+.grid6 .block3 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid6 .block3 #d7 {
+    background-color: #000;
+    width: 45%;
+    height: 550px;
+}
+.grid6 .block3 #d8 {
+    background-color: #F9E400;
+    width: 25%;
+}
+.grid6 .block3 #d9 {
+    background-color: #000;
+    width: 25%;
+}
+
+
+.grid6 .block4 {
+    background-color: #2A2F44;
+    padding-top: 50px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid6 .block4 #d10 {
+    background-color: #F9E400;
+    width: 25%;
+    height: 250px;
+    margin-left: 20%;
+}
+
+
+.grid6 .block5 {
+    background-color: #2A2F44;
+    padding-top: 50px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid6 .block5 #d11 {
+    background-color: #F9E400;
+    width: 70%;
+    height: 250px;
+}
+.grid6 .block5 #d12 {
+    background-color: #000;
+    width: 25%;
+    height: 250px;
+}
+
+
+
+/* Grid 7 */
+.grid7, body {
+    background-color: #2A2F44;
+}
+.grid7 .block1 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid7 .block1 div {
+    width: 45%;
+    height: 250px;
+}
+
+.grid7 .block1 #d1 {
+    background-color: #000;
+}
+.grid7 .block1 #d2 {
+    background-color: #F9E400;
+}
+
+
+.grid7 .block2 {
+    padding-top: 50px;
+    background-color: #2A2F44;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid7 .block2 div {
+    width: 45%;
+    height: 250px;
+}
+
+.grid7 .block2 #d3 {
+    background-color: #000;
+}
+.grid7 .block2 #d4 {
+    background-color: #fff;
+}
+
+
+.grid7 .block3 {
+    height: 45% !important;
+    width: 100% !important;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid7 .block3 div {
+    width: 95%;
+    height: 95%;
+}
+.grid7 .block3 #d5 {
+    background-color: #F9E400;
+}
+
+
+.grid7 .block4 {
+    height: 45% !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid7 .block4 div {
+    width: 45%;
+    height: 100%;
+}
+.grid7 .block4 #d6 {
+    background-color: #000;
+}
+.grid7 .block4 #d7 {
+    background-color: #F9E400;
+}
+
+
+
+
+
+
+/* Grid 5 */
+.grid8, body {
+    background-color: #2A2F44;
+}
+
+.grid8 .block1 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid8 .block1 div {
+    width: 18%;
+    height: 250px;
+}
+
+.grid8 .block1 #d1 {
+    background-color: #000;
+}
+.grid8 .block1 #d2 {
+    background-color: #F9E400;
+}
+.grid8 .block1 #d3 {
+    background-color: #000;
+}
+.grid8 .block1 #d4 {
+    background-color: #F9E400;
+}
+.grid8 .block1 #d5 {
+    background-color: #000;
+}
+
+
+
+.grid8 .block2 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid8 .block2 div {
+    width: 20%;
+    height: 250px;
+}
+
+.grid8 .block2 #d6 {
+    background-color: #F9E400;
+}
+.grid8 .block2 #d7 {
+    background-color: #000;
+}
+.grid8 .block2 #d8 {
+    background-color: #F9E400;
+    width: 55%;
+}
+
+
+.grid8 .block3 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid8 .block3 div {
+    width: 98%;
+    height: 250px;
+}
+
+.grid8 .block3 #d9 {
+    background-color: #000;
+}
+
+
+
+
+/* Grid 7 */
+.grid9, body {
+    background-color: #2A2F44;
+}
+.grid9 .block1 {
+    background-color: #2A2F44;
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid9 .block1 div {
+    width: 98%;
+    height: 250px;
+}
+
+.grid9 .block1 #d1 {
+    background-color: #000;
+}
+
+
+
+.grid9 .block2 {
+    padding-top: 50px;
+    background-color: #2A2F44;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid9 .block2 div {
+    width: 30%;
+    height: 250px;
+}
+
+.grid9 .block2 #d2 {
+    background-color: #F9E400;
+    height: 550px;
+}
+.grid9 .block2 #d3 {
+    background-color: #000;
+    width: 60%;
+}
+
+
+.grid9 .block3 {
+    margin-left: 38%;
+    width: 60%;
+    height: 250px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid9 .block3 div {
+    width: 48%;
+}
+.grid9 .block3 #d4 {
+    background-color: #000;
+}
+.grid9 .block3 #d5 {
+    background-color: #F9E400;
+}
