@@ -57,16 +57,22 @@ nav #navbar {
 }
 
 #navbar .navbar-items a:hover {
-    display: block;
-    height: 100%;
     transition: all 0.3s ease-in-out;
-    text-decoration: underline;
-    color: #FFF;
+    color: #000;
 }
 
 #navbar h3 {
     padding: calc(37.5px - 26.4px/2);
     margin: 0;
+}
+
+#navbar .navbar-items a:hover h3 {
+    background-color: #FF3333;
+    padding: calc(37.5px - 26.4px/2 - 10px);
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    color: #000;
+    border-radius: 10px;
 }
 
 .navbar-sitename {
