@@ -16,15 +16,19 @@
 
 .programmeren .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
     height: 300px;
 }
 
+.programmeren .container .box-link {
+  width: 45%;
+}
+
 .programmeren .box {
-  width: 300px;
+  min-width: 300px;
   height: 300px;
   margin-left: 25px;
   margin-right: 25px;
@@ -39,12 +43,11 @@
 } 
 
 .programmeren .box-a {background-image: url(./images/html.jpeg);}
-.programmeren .box-b {background-image: url(./images/java.webp);}
+.programmeren .box-b {background-image: url(./images/java.jpg);}
 .programmeren .box-c {background-image: url(./images/php.png);}
 .programmeren .box-d {background-image: url(./images/javascript.jpg);}
 
 .box-a-title {
-  background-color: ;
   width: 100%;
   padding-left: 5px;
   border-bottom-left-radius: 10px;
@@ -79,24 +82,24 @@
   <main class="programmeren">
 
     <div class="container">
-      <a href="#">
+      <a href="#" class="box-link">
         <div class="box box-a">
           <h1 class="box-a-title red1">HTML/CSS</h1>
         </div>
       </a>
-      <a href="#">
+      <a href="#" class="box-link">
         <div class="box box-b">
           <h1 class="box-a-title red1">JAVA</h1>
         </div>
       </a>
     </div>
     <div class="container">
-      <a href="#">
+      <a href="#" class="box-link">
         <div class="box box-c">
           <h1 class="box-a-title red1">PHP</h1>
         </div>
       </a>
-      <a href="#">
+      <a href="#" class="box-link">
         <div class="box box-d">
           <h1 class="box-a-title red1">Javascript</h1>
         </div>
