@@ -1,17 +1,26 @@
 /* Nav */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    color: white;
 }
               
-p {
+p, a {
     font-family: "Arial", "Arial", Gadget, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #2f2f2f;
+    margin: 0px;
+    padding: 0px;
 }
     
 
 
 
 .black {
-    background-color: #20272b;
+    background-color: #515151;
 }
 
 .red1 {
@@ -36,7 +45,7 @@ p {
 
 nav #navbar {
     height: 75px;
-    background-color: #20272b;
+    background-color: #515151;
     position: fixed;
     top: 0;
     width: 100%;
@@ -51,13 +60,13 @@ nav #navbar {
 #navbar a {
     display: block;
     height: 100%;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
     color: #FFF;
 }
 
 #navbar .navbar-items a:hover {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     color: #000;
 }
 
@@ -86,19 +95,77 @@ nav #navbar {
 
 /** Home **/
 
-/* Body */
-body {
+/** Home | Hero **/
+.home .hero {
+    background-image: url(./images/technovium-nijmegen.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home .hero h1, .home .hero h2 {
     margin: 0px;
     padding: 0px;
-}
-
-a {
-    text-decoration: none;
     color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.home #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.custom-shape-divider-bottom-1662291872 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.custom-shape-divider-bottom-1662291872 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1662291872 .shape-fill {
+    fill: #FF3333;
+}
+
+.home .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.home .summary h2, .home .summary p {
+    margin: 0;
+    padding: 0;
 }
 
 
-/** Home | Hero **/
+
+
+
+
+
+
+
+/** Informatie **/
+
+/** Informatie | Hero **/
 .home .hero {
     background-image: url(./images/technovium-nijmegen.jpg);
     background-repeat: no-repeat;

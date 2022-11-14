@@ -10,11 +10,17 @@
 
 /** Programmeertalen **/
 
+.programmeren {
+  height: 110vh;
+}
+
 .programmeren .container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
 }
 
 .programmeren .box {
@@ -23,34 +29,26 @@
   margin-left: 25px;
   margin-right: 25px;
   border-radius: 10px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 30px;
 } 
 
-.programmeren .box-a {
-  background-image: url(./images/html.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+.programmeren .box-a {background-image: url(./images/html.jpeg);}
+.programmeren .box-b {background-image: url(./images/java.webp);}
+.programmeren .box-c {background-image: url(./images/php.png);}
+.programmeren .box-d {background-image: url(./images/javascript.jpg);}
 
-.programmeren .box-b {
-  background-image: url(./images/java.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.programmeren .box-c {
-  background-image: url(./images/php.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.programmeren .box-d {
-  background-image: url(./images/javascript.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.box-a-title {
+  background-color: ;
+  width: 100%;
+  padding-left: 5px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 
@@ -81,16 +79,28 @@
   <main class="programmeren">
 
     <div class="container">
-      <div class="box box-a">
-      </div>
-      <div class="box box-b">
-      </div>
+      <a href="#">
+        <div class="box box-a">
+          <h1 class="box-a-title red1">HTML/CSS</h1>
+        </div>
+      </a>
+      <a href="#">
+        <div class="box box-b">
+          <h1 class="box-a-title red1">JAVA</h1>
+        </div>
+      </a>
     </div>
     <div class="container">
-      <div class="box box-c">
-      </div>
-      <div class="box box-d">
-      </div>
+      <a href="#">
+        <div class="box box-c">
+          <h1 class="box-a-title red1">PHP</h1>
+        </div>
+      </a>
+      <a href="#">
+        <div class="box box-d">
+          <h1 class="box-a-title red1">Javascript</h1>
+        </div>
+      </a>
     </div>
 
   </main>
