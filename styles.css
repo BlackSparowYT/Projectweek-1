@@ -6,79 +6,51 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: "Arial", "Arial", Gadget, sans-serif;
 }
-              
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000;
-}
-              
-nav li {
-    float: right;
-}
-              
-nav li a {
-    padding: 0px;
-}
-              
-nav li a, nav li h1 {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 27px 16px;
-    text-decoration: none;
-    transition: all .2s ease-in;
-    background-color: #000;
-}
-              
-nav li h1:hover {
-    background-color: #000;
-    animation: navcolor 8s;
-}
-              
-nav li a:hover {
-    background-color: #000;
-    color: #000;
-    animation: navcolor 4s;
-}
-              
-@keyframes navcolor {
-    50% {background-color: #F9E400;}
-}
-              
-nav {
+    
+
+
+
+
+
+
+
+nav #navbar {
+    height: 75px;
+    background-color: #858585;
     position: fixed;
     top: 0;
     width: 100%;
-    margin: 0;
-    z-index: 1000;
-}
-              
-nav #last {
-    margin-right: 0px;
-}
-              
-nav #first {
-    border-bottom-left-radius: 10px;
-}
-              
-nav #sitename h1 {
-    padding: 23.4px;
-    margin: 0px;
-    background-color: #F9E400;
-    border-bottom-right-radius: 10px;
-    color: #000;
+    z-index: 100;
 }
 
-nav #sitename h1:hover {
-    color: #FFF;
-    animation: navnamecolor 4s;
+.navbar-items {
+    display: flex;
+    justify-content: flex-end;
 }
-              
-@keyframes navnamecolor {
-    50% {background-color: #000;}
+
+#navbar a {
+    display: block;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#navbar .navbar-items a:hover {
+    display: block;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+    color: #FFF;
+}
+
+#navbar h3 {
+    padding: calc(37.5px - 26.4px/2);
+    margin: 0;
+}
+
+.navbar-sitename {
+    float: left;
 }
 
 
@@ -102,7 +74,7 @@ a {
 
 /** Home | Hero **/
 .home .hero {
-    background-image: url(https://cdn.blacksparow.gq/site/images/PS_Messages_20200927_133547.jpg);
+    background-image: url(./images/technovium-nijmegen.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
