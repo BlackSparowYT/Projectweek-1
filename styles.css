@@ -1,17 +1,26 @@
 /* Nav */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    color: white;
 }
               
-p {
+p, a {
     font-family: "Arial", "Arial", Gadget, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #2f2f2f;
+    margin: 0px;
+    padding: 0px;
 }
     
 
 
 
 .black {
-    background-color: #20272b;
+    background-color: #515151;
 }
 
 .red1 {
@@ -36,7 +45,7 @@ p {
 
 nav #navbar {
     height: 75px;
-    background-color: #20272b;
+    background-color: #515151;
     position: fixed;
     top: 0;
     width: 100%;
@@ -85,18 +94,6 @@ nav #navbar {
 
 
 /** Home **/
-
-/* Body */
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
-a {
-    text-decoration: none;
-    color: #FFF;
-}
-
 
 /** Home | Hero **/
 .home .hero {
