@@ -139,53 +139,17 @@ a {
 }
 
 .custom-shape-divider-bottom-1662291872 .shape-fill {
-    fill: #F9E400;
+    fill: #FF3333;
 }
 
-.home .block1 {
-    height: 500px;
-    display: flex;
-    justify-content: space-between;
+.home .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
 }
 
-.home .block1 div {
-    width: 33%;
-    height: 500px;
-}
-
-.home .block1 #d1 {
-    background-color: #000;
-}
-.home .block1 #d2 {
-    background-color: #F9E400;
-}
-.home .block1 #d3 {
-    background-color: #000;
-    width: 34%;
-}
-
-.home .block2 {
-    height: 500px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.home .block2 div {
-    width: 25%;
-    height: 500px;
-}
-
-.home .block2 #d4 {
-    background-color: #000;
-}
-.home .block2 #d5 {
-    background-color: #F9E400;
-}
-.home .block2 #d6 {
-    background-color: #000;
-}
-.home .block2 #d7 {
-    background-color: #F9E400;
+.home .summary h2, .home .summary p {
+    margin: 0;
+    padding: 0;
 }
 
 
