@@ -207,18 +207,19 @@ nav #navbar {
 
 .informatie .summary h2, .informatie .summary p {
     color: #000;
+    text-align: center;
 }
 
 
 .informatie h2 {
     margin-top: 0;
-    margin-left: 30px;
     padding-top: 20px;
 }
 
 .informatie p {
     margin-left: 30px;
-    width: 70% !important;
+    width: 80% !important;
+    margin-left: 10%;
 }
 
 /* Informatie | Locatie */
@@ -226,6 +227,10 @@ nav #navbar {
 .locatie {
     width: 100%;
     border-radius: 10px;
+}
+
+.locatie p {
+    text-align: center;
 }
 
 .mapouter {
@@ -264,8 +269,9 @@ nav #navbar {
 }
 
 .separator1 .separator {
-    margin-bottom: -2px;
-    margin-top: 20px;
+    margin-bottom: -5px !important;
+    margin-top: 20px !important;
+    margin: 0;
     position: relative;
     width: var(--width);
     height: var(--height);
@@ -444,8 +450,8 @@ nav #navbar {
 }
 
 .impressie .flex-box div {
-    width: 45%;
-    height: 200px;
+    width: 46%;
+    min-height: 200px;
     border-radius: 10px;
     margin: 20px 0;
     background-color: #A21F16;
@@ -459,9 +465,9 @@ nav #navbar {
 }
 
 .impressie .flex-box div p {
-    margin-top: 40px;
-    margin-left: 20px;
+    margin: 40px 0 20px 20px;
     color: #fff !important;
+    width: 90% !important;
 }
 
 .impressie .flex-box div img {
