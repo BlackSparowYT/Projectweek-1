@@ -289,8 +289,20 @@ width: 70%;
 
 .informatie .summary h2, .informatie .summary p {
     color: #000;
+    text-align: center;
 }
 
+
+.informatie h2 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.informatie p {
+    margin-left: 30px;
+    width: 80% !important;
+    margin-left: 10%;
+}
 
 /* Informatie | Locatie */
 
@@ -299,15 +311,8 @@ width: 70%;
     border-radius: 10px;
 }
 
-.locatie h2 {
-    margin-top: 0;
-    margin-left: 20px;
-    padding-top: 20px;
-}
-
 .locatie p {
-    margin-left: 30px;
-    width: 70% !important;
+    text-align: center;
 }
 
 .mapouter {
@@ -315,7 +320,7 @@ width: 70%;
     height: 500px;
     width: 90%;
     margin-top: 30px;
-    margin-left: calc(5% - 40px);
+    margin-left: 5%;
     border-radius: 10px;
 }
 
@@ -337,7 +342,7 @@ width: 70%;
 
 
 
-/* Seperator2 */
+/* Seperator1 */
 .separator1 {
     --width: 100%;
     --height: 100px;
@@ -345,14 +350,16 @@ width: 70%;
     --bottom-color: #A21F16;
 }
 
-.separator {
-    margin-top: 20px;
+.separator1 .separator {
+    margin-bottom: -5px !important;
+    margin-top: 20px !important;
+    margin: 0;
     position: relative;
     width: var(--width);
     height: var(--height);
 }
 
-.separator::before {
+.separator1 .separator::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -361,7 +368,7 @@ width: 70%;
     clip-path: polygon(100% 0, 0 0, 0 100%);
 }
 
-.separator::after {
+.separator1 .separator::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -376,22 +383,29 @@ width: 70%;
 /* Informatie | Plategrond */
 
 .plategrond {
+    text-align: center;
     width: 100%;
-    border-radius: 10px;
-    margin-top: 40px;
     background-color: #A21F16;
+    padding-bottom: 30px;
+}
+
+.plategrond h2 {
+    color: #000 !important;
+    margin-left: 0;
 }
 
 .plategrond p {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 30px;
+    margin-left: 0;
+    color: #000 !important;
 }
 
 .plategrond a {
     margin: 10px;
     padding: 20px;
-    background-color: #A21F16;
-    color: #fff;
+    background-color: #FCBA04;
+    color: #000;
     border-radius: 10px;
     transition: all 0.3s;
 }
@@ -399,8 +413,184 @@ width: 70%;
 .plategrond a:hover {
     margin: 15px;
     padding: 15px;
-    background-color: #A21F16;
-    color: #fff;
+    background-color: #FCBA04;
+    color: #000;
     border-radius: 10px;
     transition: all 0.3s;
+}
+
+/* Seperator2 */
+.separator2 {
+    --width: 100%;
+    --height: 100px;
+    --top-color: #A21F16;
+    --bottom-color: #FF3333;
+}
+
+.separator2 .separator {
+    margin-top: -2px;
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+}
+
+.separator2 .separator::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--top-color);
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.separator2 .separator::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--bottom-color);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Seperator3 */
+.separator3 {
+    --width: 100%;
+    --height: 100px;
+    --top-color: #FF3333;
+    --bottom-color: #FCBA04;
+}
+
+.separator3 .separator {
+    margin-bottom: -2px;
+    margin-top: 20px;
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+}
+
+.separator3 .separator::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--top-color);
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.separator3 .separator::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--bottom-color);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+/* Informatie | Impressie */
+
+.impressie {
+    text-align: center;
+    width: 100%;
+    background-color: #FCBA04;
+    padding-bottom: 30px;
+}
+
+.impressie h2 {
+    color: #000 !important;
+    margin-left: 0;
+}
+
+.impressie p {
+    width: 100% !important;
+    margin-bottom: 30px;
+    margin-left: 0;
+    color: #000 !important;
+}
+
+.impressie .flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.impressie .flex-box div {
+    width: 46%;
+    min-height: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: #A21F16;
+    text-align: left;
+}
+
+.impressie .flex-box div h3 {
+    margin-left: 80px;
+    margin-top: calc(40px - 26.4px / 2);
+    margin-bottom: calc(40px - 26.4px / 2);
+}
+
+.impressie .flex-box div p {
+    margin: 40px 0 20px 20px;
+    color: #fff !important;
+    width: 90% !important;
+}
+
+.impressie .flex-box div img {
+    display: inline;
+    height: 75px;
+    width: 75px;
+    margin: 5px 5px 0 5px;
+    border-radius: 1000px;
+    float: left;
+}
+
+
+/* Seperator4 */
+.separator4 {
+    --width: 100%;
+    --height: 100px;
+    --top-color: #FCBA04;
+    --bottom-color: #FF3333;
+}
+
+.separator4 .separator {
+    margin-top: -2px;
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+}
+
+.separator4 .separator::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--top-color);
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.separator4 .separator::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--bottom-color);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
