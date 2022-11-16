@@ -4,7 +4,12 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
               
-p, a {
+p {
+    font-family: "Arial", "Arial", Gadget, sans-serif;
+    text-decoration: none;
+}
+
+a {
     font-family: "Arial", "Arial", Gadget, sans-serif;
     color: white;
     text-decoration: none;
@@ -156,132 +161,150 @@ nav #navbar {
     color: #000;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** modules **/
 
 /** modules hero **/
 
 #slbhero {background-image: url(./images/slb.jpg);}
-
 #webhero {background-image: url(./images/website.jpg);}
-
 #enghero {background-image: url(./images/engels.jpg);}
-
 #nedhero {background-image: url(./images/nederlands.jpg);}
-
 #rekhero {background-image: url(./images/rekenen.png);}
-
 #burhero {background-image: url(./images/burgerschap.jpg);}
-
 #toolhero {background-image: url(./images/tools.jpg);}
-
 #icthero {background-image: url(./images/ict.jpg);}
-
 #proghero {background-image: url(./images/programmeren.jpg);}
 
 .modinfo .hero {
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height: 350px;
-width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
 }
 
 .modinfo #heroname {
-margin: 0px;
-padding: 0px;
-color: #000;
-transition: all .2s ease-in;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    transition: all .2s ease-in;
 }
 
 .modinfo .overlay {
-background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
-width: 100%;
-height: 350px;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
+
+
+
+
+
+
+
+
+
+
 
 /** modules main **/
 .modules main {
-        padding-top: 75px;
-        height: 100vh;
-    }
+padding-top: 75px;
+height: 100vh;
+}
 
-    .modules .mod {
-        color: #FFF;
-        width: 29%;
-        height: 29%;
-        margin: 1%;
-        padding-left: 20px;
-        transition: 1s;
-        border-radius: 10px;
-        background-size: 200%;
-	    display: flex;
-	    flex-direction: column;
-	    flex-wrap: wrap;
-	    justify-content: flex-end;
-	    align-items: stretch;
-	    align-content: stretch;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 10px;
-            transition: all 0.3s;
-        }
+.modules .mod {
+color: #FFF;
+width: 29%;
+height: 29%;
+margin: 1%;
+padding-left: 20px;
+transition: 1s;
+border-radius: 10px;
+background-size: 200%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-end;
+align-items: stretch;
+align-content: stretch;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 10px;
+    transition: all 0.3s;
+}
 
-        .modules .mod:hover {
-            width: 30%;
-            height: 30%;
-            margin: 0;
-            transition: all 0.3s;
-        }
+.modules .mod:hover {
+    width: 30%;
+    height: 30%;
+    margin: 0;
+    transition: all 0.3s;
+}
 
-        .modules #bwebsite {background-image: url(./images/website.jpg);}
-        .modules #bprogrammeren {background-image: url(./images/programmeren.jpg);}
-        .modules #bict {background-image: url(./images/ict.jpg);}
-        .modules #btools {background-image: url(./images/tools.jpg);}
-        .modules #bnederlands {background-image: url(./images/nederlands.jpg);}
-        .modules #bengels {background-image: url(./images/engels.jpg);}
-        .modules #bburgerschap {background-image: url(./images/burgerschap.jpg);}
-        .modules #brekenen {background-image: url(./images/rekenen.png);}
-        .modules #bslb {background-image: url(./images/slb.jpg);}
-            
-        .modules .row {
-            display: flex;
-	        flex-direction: row;
-	        flex-wrap: wrap;
-	        justify-content: space-evenly;
-	        align-items: center;
-	        align-content: space-around;
-        }
+.modules #bwebsite {background-image: url(./images/website.jpg);}
+.modules #bprogrammeren {background-image: url(./images/programmeren.jpg);}
+.modules #bict {background-image: url(./images/ict.jpg);}
+.modules #btools {background-image: url(./images/tools.jpg);}
+.modules #bnederlands {background-image: url(./images/nederlands.jpg);}
+.modules #bengels {background-image: url(./images/engels.jpg);}
+.modules #bburgerschap {background-image: url(./images/burgerschap.jpg);}
+.modules #brekenen {background-image: url(./images/rekenen.png);}
+.modules #bslb {background-image: url(./images/slb.jpg);}
+    
+.modules .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
 
-        .modules .linkmod {
-            padding-left: 5%;
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 10px;
-            width: 95%;
-        }
+.modules .linkmod {
+    padding-left: 5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 95%;
+}
 
 /** modules info **/
 
 .modinfo .summary {
-background-color: #FF3333;
-padding: 40px 0 20px 20px;
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
 }
 
 .modinfo .summary h2, .modinfo .summary p {
-margin: 0;
-padding: 0;
-color: #000;
+    margin: 0;
+    padding: 0;
+    color: #000;
 }
 
 .modinfo .summary p {
-margin: 0;
-padding: 0;
-color: #000;
-width: 70%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    width: 70%;
 }
 
 .modinfo .uitleg {
@@ -291,7 +314,7 @@ width: 70%;
     border-radius: 10px;
 
 }
-.modinfo .maininfo {
+    .modinfo .maininfo {
     margin-top: 35px;
     padding: 5px;
     width: 86%;
@@ -318,6 +341,26 @@ width: 70%;
     font-family: "Arial", "Arial", Gadget, sans-serif;
     width: 48%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** informatie **/
 
 /** informatie | Hero **/
@@ -525,21 +568,7 @@ width: 70%;
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**/
 
 /* Seperator3 */
 .separator3 {
@@ -574,6 +603,7 @@ width: 70%;
     background-color: var(--bottom-color);
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
+
 
 /* Informatie | Impressie */
 
@@ -623,6 +653,7 @@ width: 70%;
     margin: 40px 0 20px 20px;
     color: #fff !important;
     width: 90% !important;
+    text-align: left;
 }
 
 .impressie .flex-box div img {
@@ -668,6 +699,7 @@ width: 70%;
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
+<<<<<<< Updated upstream
 /** footer **/
 footer {
     height: 175px;
@@ -698,4 +730,471 @@ footer .namen p{
 footer h4 {
     color: white;
     padding-left: 20px;
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Programmeertalen **/
+
+/** Programmeertalen | Hero **/
+
+.htmlcss .hero {
+    background-image: url(./images/html.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.htmlcss .hero h1,
+.htmlcss .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.htmlcss #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.htmlcss .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.htmlcss .summary {
+    background-color: #FF3333;
+    padding-top: 30px;
+    height: 200vh;
+}
+
+.summary {
+    background-color: #FF3333;
+    padding-top: 30px;
+    height: 180vh;
+}
+
+.summary h2, .htmlcss .summary p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+
+/** HTML/CSS | Programmeertalen **/
+
+
+.htmlcss .watis {
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-color: #A21F16;
+    margin: 30px;
+    margin-left: 20%;
+    border-radius: 100000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.htmlcss .watis p {
+    width: 90%;
+}
+
+.htmlcss .watis2 {
+    float: left;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: #FCBA04;
+    margin: 30px;
+    margin-left: 40%;
+    margin-top: -220px;
+    border-radius: 100000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.htmlcss .watis2 p {
+    width: 90%;
+}
+
+
+
+.htmlcss .opleiding {
+    float: left;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: #2f2f2f;
+    margin: 30px;
+    margin-left: 15%;
+    margin-top: -250px;
+    border-radius: 100000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 8;
+}
+
+.htmlcss .opleiding h2 {
+    width: 90%;
+    color: #fff !important;
+}
+
+.htmlcss .opleiding p {
+    width: 90%;
+    color: #fff !important;
+}
+
+
+
+.htmlcss .bedrijven {
+    float: left;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-color: #EBEBEB;
+    margin: 30px;
+    margin-left: 45%;
+    margin-top: -380px;
+    border-radius: 100000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 7;
+}
+
+.htmlcss .bedrijven h2 {
+    width: 90%;
+    color: #000 !important;
+}
+
+.htmlcss .bedrijven p {
+    width: 90%;
+    color: #000 !important;
+}
+
+
+/** Java | Programmeertalen **/
+
+.java .hero {
+    background-image: url(./images/java.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.java .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.java #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.java .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.java .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.java .summary h2, .java .summary p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+
+
+    /** JavaScript | Programmeertalen **/
+
+    .javascript .hero {
+    background-image: url(./images/javascript.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.javascript .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.javascript #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.javascript .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/** PHP | Programmeertalen **/
+
+.php .hero {
+    background-image: url(./images/php.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.php .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.php #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.php .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.php .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.php .summary h2, .php .summary p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+
+
+
+/** React | Programmeertalen **/
+
+.react .hero {
+    background-image: url(./images/react.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.react .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.react #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.react .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+
+/** SQL | Programmeertalen **/
+
+.sql .hero {
+    background-image: url(./images/sql.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.sql .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.sql #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.sql .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+/** Other Pages | Programmeertalen **/
+
+
+.watis {
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-color: #A21F16;
+    margin: 30px;
+    margin-left: 20%;
+    border-radius: 100000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.watis p {
+    width: 90%;
+}
+
+
+.opleiding {
+    float: left;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-color: #FCBA04;
+    margin: 30px;
+    margin-left: 45%;
+    margin-top: -220px;
+    border-radius: 100000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 8;
+}
+
+.opleiding h2 {
+    width: 90%;
+    color: #000 !important;
+}
+
+.opleiding p {
+    width: 90%;
+    color: #000 !important;
+}
+
+
+
+.bedrijven {
+    float: left;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-color: #EBEBEB;
+    margin: 30px;
+    margin-left: 12%;
+    margin-top: -380px;
+    border-radius: 100000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 7;
+}
+
+.bedrijven h2 {
+    width: 90%;
+    color: #000 !important;
+}
+
+.bedrijven p {
+    width: 90%;
+    color: #000 !important;
+>>>>>>> Stashed changes
 }
