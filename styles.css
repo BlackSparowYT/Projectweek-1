@@ -231,8 +231,8 @@ footer h4, footer p {
     width: auto;
 }
 
-.modinfo .summary { 
-    height: 10vh;
+.modinfo .summary {
+    height: 10vh !important;
 }
 
 .modinfo #heroname {
@@ -350,7 +350,7 @@ margin: 10px;
     border-radius: 10px;
 
 }
-    .modinfo .maininfo {
+.modinfo .maininfo {
     margin-top: 35px;
     padding: 5px;
     width: 86%;
@@ -798,7 +798,7 @@ margin: 10px;
 .summary {
     background-color: #FF3333;
     padding-top: 30px;
-    min-height: 180vh;
+    height: 180vh;
 }
 
 .summary h2, .htmlcss .summary p {
