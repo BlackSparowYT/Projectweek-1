@@ -16,11 +16,14 @@ a {
 }
 
 body {
-    background-color: #FF3333;
+    background-color: #2f2f2f;
     margin: 0px;
     padding: 0px;
 }
     
+.body-home {
+    background-color: #FF3333;
+}
 
 
 /*** Colors ***/
