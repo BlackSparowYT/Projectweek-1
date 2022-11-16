@@ -110,7 +110,7 @@ footer .namen p{
     border-bottom-left-radius: 10px;
 }
 
-footer h4 {
+footer h4, footer p {
     color: white;
     padding-left: 20px;
 }
