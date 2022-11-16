@@ -798,7 +798,7 @@ margin: 10px;
 .summary {
     background-color: #FF3333;
     padding-top: 30px;
-    height: 180vh;
+    min-height: 180vh;
 }
 
 .summary h2, .htmlcss .summary p {
