@@ -83,6 +83,38 @@ nav #navbar {
 }
 
 
+/*** footer ***/
+footer {
+    height: 175px;
+    width: 100%;
+    padding-top: 0px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+footer .namen {
+    width: 50%;
+}
+
+footer .namen p{
+    padding-left: 20px;
+    width: 100%;
+}
+.block {
+    padding: 10px;
+    margin-top: 75px;
+    width: 50%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+footer h4 {
+    color: white;
+    padding-left: 20px;
+}
+
 
 
 
@@ -699,38 +731,8 @@ margin: 10px;
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
-<<<<<<< Updated upstream
-/** footer **/
-footer {
-    height: 175px;
-    width: 100%;
-    padding-top: 0px;
 
-    display: flex;
-    flex-direction: row;
-}
 
-footer .namen {
-    width: 50%;
-}
-
-footer .namen p{
-    padding-left: 20px;
-    width: 100%;
-}
-.block {
-    padding: 10px;
-    margin-top: 75px;
-    width: 50%;
-    height: 50px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-footer h4 {
-    color: white;
-    padding-left: 20px;
-=======
 
 
 
@@ -1196,5 +1198,5 @@ footer h4 {
 .bedrijven p {
     width: 90%;
     color: #000 !important;
->>>>>>> Stashed changes
+
 }
