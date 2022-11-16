@@ -228,6 +228,10 @@ footer h4, footer p {
     width: auto;
 }
 
+.modinfo .summary {
+    height: 10vh;
+}
+
 .modinfo #heroname {
     margin: 0px;
     padding: 0px;
