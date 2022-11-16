@@ -667,3 +667,349 @@ width: 70%;
     background-color: var(--bottom-color);
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
+
+
+
+
+
+
+
+        /** informatie **/
+
+    /** informatie | Hero **/
+
+    .sql .hero {
+    background-image: url(../../images/sql.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.sql .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.sql #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+/*.custom-shape-divider-bottom-1662291872 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.custom-shape-divider-bottom-1662291872 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1662291872 .shape-fill {
+    fill: #FF3333;
+}*/
+
+.sql .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sql .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.sql .summary h2, .sql .summary p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+    
+.react .hero {
+    background-image: url(../../images/react.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.react .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.react #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+/*.custom-shape-divider-bottom-1662291872 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.custom-shape-divider-bottom-1662291872 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1662291872 .shape-fill {
+    fill: #FF3333;
+}*/
+
+.react .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.react .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.react .summary h2, .react .summary p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+    
+.javascript .hero {
+    background-image: url(../../images/javascript.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.javascript .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.javascript #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+/*.custom-shape-divider-bottom-1662291872 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.custom-shape-divider-bottom-1662291872 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1662291872 .shape-fill {
+    fill: #FF3333;
+}*/
+
+.javascript .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.javascript .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.javascript .summary h2, .javascript .summary p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+
+.java .hero {
+    background-image: url(../../images/java.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.java .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.java #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+/*.custom-shape-divider-bottom-1662291872 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.custom-shape-divider-bottom-1662291872 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1662291872 .shape-fill {
+    fill: #FF3333;
+}*/
+
+.java .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.java .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.java .summary h2, .java .summary p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.htmlcss .hero {
+    background-image: url(../../images/html.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+
+.htmlcss .hero h1, .informatie .hero h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+.htmlcss #heroname {
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+    transition: all .2s ease-in;
+}
+
+/*.custom-shape-divider-bottom-1662291872 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.custom-shape-divider-bottom-1662291872 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1662291872 .shape-fill {
+    fill: #FF3333;
+}*/
+
+.htmlcss .overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,51,51,0.47102591036414565) 62%, rgba(255,51,51,1) 100%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.htmlcss .summary {
+    background-color: #FF3333;
+    padding: 40px 0 20px 20px;
+}
+
+.htmlcss .summary h2, .htmlcss .summary p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
